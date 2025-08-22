@@ -1,0 +1,91 @@
+body {
+    font-family:sans-serif;
+} 
+.photo{
+     display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  float:right;
+  border: #B16201 3px solid;
+}
+h1{
+    text-align: center;
+}
+
+.logo{
+   display: block;
+  margin: 0 auto;
+}
+a{
+text-decoration: none;
+color:black;
+}
+nav {
+  display: flex;
+  justify-content: center;  
+  gap: 40px;               
+  padding: 10px 0;
+}
+footer{
+  background-color: #9D9D9D;
+  color:white;
+  font-size: 25px;
+}
+.nomer::before{
+  content: url(https://learn.logikaschool.com/uploads/student/2493502/687fac51e3dc9.png);
+}
+.inst::before{
+  content: url(https://learn.logikaschool.com/uploads/student/2493502/687fac9f50300.png);
+}
+.face::before{
+  content: url(https://learn.logikaschool.com/uploads/student/2493502/687facd051793.png);
+}
+
+footer img.gap {
+  float: right;
+  margin-left: 20px; 
+}
+span{
+  color: #B16201;
+}
+section{
+  position: static;
+}
+a:hover{
+  color: rgb(171, 171, 171);
+  transition: 0.3s;
+}
+.gap{
+  background-color: #9D9D9D;
+  padding-right:70px;
+  padding-top: 20px;
+}
+.nashiperevagu{
+  padding: 30px 30px 30px 30px;
+}
+.nashiperevagu div{
+ gap: 20px;
+  background-color: #D9D9D9;
+  max-width: 150px;
+  max-height: 200px;
+  text-align: center; 
+  padding: 10px;     
+  border-radius: 10px;
+}
+.derevo{
+   margin: 0 auto;
+}
+.hand{
+animation:bounce 1s ease infinite;
+}
+@keyframes bounce {
+
+0% { transform: rotate(160deg); }
+
+50% { transform: rotate(110deg);}
+
+100% { transform: rotate(160deg);}
+}

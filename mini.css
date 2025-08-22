@@ -1,0 +1,152 @@
+body {
+    font-family:sans-serif;
+} 
+h1{
+    text-align: center;
+}
+.logo{
+   display: block;
+  margin: 0 auto;
+}
+a{
+text-decoration: none;
+color:black;
+}
+nav {
+  display: flex;
+  justify-content: center;  
+  gap: 40px;               
+  padding: 10px 0;
+}
+footer{
+  background-color: #9D9D9D;
+  color:white;
+  font-size: 25px;
+}
+.nomer::before{
+  content: url(https://learn.logikaschool.com/uploads/student/2493502/687fac51e3dc9.png);
+}
+.inst::before{
+  content: url(https://learn.logikaschool.com/uploads/student/2493502/687fac9f50300.png);
+}
+.face::before{
+  content: url(https://learn.logikaschool.com/uploads/student/2493502/687facd051793.png);
+}
+
+footer img.gap {
+  float: right;
+  margin-left: 20px; 
+}
+section{
+  position: static;
+}
+p,li{
+  font-size: 20px;
+}
+.gap{
+  border-radius: 60px;
+}
+.car3{
+position: relative;
+left: -600px;
+}
+.gallery{   
+display: flex;
+justify-content: space-between;
+}
+.gallery {
+  width: 80%; 
+  margin: 0 auto;
+  text-align: center;
+}
+.gallery img:hover{
+  border: 5px solid black;
+  opacity: 0;
+  transition: 0.3s;
+}
+a:hover{
+  color: rgb(171, 171, 171);
+  transition: 0.3s;
+}
+.gallery{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+.kaskol{
+  padding-left:30px;
+}
+.gap{
+  background-color: #9D9D9D;
+  padding-right:70px;
+  padding-top: 20px;
+}
+.navushiki:hover{
+  opacity: 1;
+transition: 0.3s;
+}
+.navushiki{
+  opacity: 0;
+  float: right;
+}
+.napusati{
+   text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+ 
+}
+.napusati a{
+  display: inline-block;
+  background-color: #babdb1;
+  padding: 20px 20px; 
+  border-radius: 20px;
+}
+.kasko-calc {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 7px 0px 23px 8px rgba(128, 128, 128, 0.50);
+}
+
+.kasko-calc input, .kasko-calc select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+.fake-result {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  margin-top: 20px;
+  background: #dff0d8;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  pointer-events: none;
+}
+:target.fake-result {
+  opacity: 1;
+  pointer-events: all;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.derevo{
+   margin: 0 auto;
+}
+.hand{
+animation:bounce 1s ease infinite;
+}
+@keyframes bounce {
+
+0% { transform: rotate(160deg); }
+
+50% { transform: rotate(110deg);}
+
+100% { transform: rotate(160deg);}
+}
